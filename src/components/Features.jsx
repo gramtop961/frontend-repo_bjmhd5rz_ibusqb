@@ -23,8 +23,8 @@ function Features() {
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((f, i) => (
-            <div key={i} className="rounded-xl border border-slate-200 bg-gradient-to-b from-slate-50 to-white p-6 shadow-sm">
-              <div className="h-10 w-10 grid place-items-center rounded-lg bg-indigo-600 text-white font-bold">{i + 1}</div>
+            <div key={i} className="rounded-xl border border-slate-200 bg-gradient-to-b from-orange-50 to-white p-6 shadow-sm">
+              <div className="h-10 w-10 grid place-items-center rounded-lg bg-orange-600 text-white font-bold">{i + 1}</div>
               <h3 className="mt-4 text-lg font-semibold text-slate-900">{f.title}</h3>
               <p className="mt-2 text-sm text-slate-600">{f.desc}</p>
             </div>
